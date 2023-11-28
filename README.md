@@ -1,4 +1,14 @@
-Build Airflow and Spark image
+**Idea:**
+    Design a ETL to fetch data National high school graduation exam in 2022 and 2023 on Web and visualize their data.
+    Each step uses different tools: 
+        Using scrapy to fetch data.
+        Using spark to extract-transfer-load data.
+        Using mongodb to store final data.
+        Using Airflow to coordinate and manage above tasks.
+        Using PowerBI to visualize data.
+        Using Docker to deloy Airflow and Spark.
+
+**Build Airflow and Spark image**
 
     Airflow version: 2.7.3
 
@@ -36,15 +46,7 @@ Build Spark App
 
     add packages = "org.mongodb.spark:mongo-spark-connector_2.12:3.0.2" to connect spark and mongodb
 
-Idea:
-    Design a ETL to fetch data National high school graduation exam in 2022 and 2023 on Web and visualize their data.
-    Each step uses different tools: 
-        Using scrapy to fetch data.
-        Using spark to extract-transfer-load data.
-        Using mongodb to store final data.
-        Using Airflow to coordinate and manage above tasks.
-        Using PowerBI to visualize data.
-        Using Docker to deloy Airflow and Spark.
+
     
     Version: 
         Docker - 24.0.6
