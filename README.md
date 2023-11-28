@@ -81,7 +81,7 @@ To import data into PowerBI from MongoDB, must install following apps:
 
 * MongoDB BI Connector.
 * MongoDB ODBC Driver.
-* Refer to this link to install and import data to MongoDB: https://www.youtube.com/watch?v=ZuqYZ1xEuzU
+* Refer to this link to install and import data to PowerBI: https://www.youtube.com/watch?v=ZuqYZ1xEuzU
 
 # Airflow DAGs Performance
 
