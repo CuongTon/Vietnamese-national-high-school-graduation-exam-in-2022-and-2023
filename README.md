@@ -4,7 +4,7 @@
 
 * Each step uses different tools: 
     * Using **Scrapy** to fetch data.
-    * Using **Spark** to extract-transfer-load data.
+    * Using **Spark** to extract-transform-load data.
     * Using **Mongodb** to store final data.
     * Using **Airflow** to coordinate and manage above tasks.
     * Using **PowerBI** to visualize data.

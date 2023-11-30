@@ -15,12 +15,6 @@ def _branch():
     except:
         return 'end_ETL'
 
-# def _check_quality(**kwags):
-#     connection_url = pymongo.MongoClient("host.docker.internal:27017")
-#     db = connection_url["database_test"]
-#     col = db["collection_test"]
-#     count = col.find().count()
-#     if count == 
 
 with DAG("Spark_ETL", 
          schedule_interval=None, 
